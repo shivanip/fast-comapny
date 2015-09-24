@@ -15,14 +15,18 @@
     background-color: #FFF7AB;
     margin:auto;
   }
-.ad{
+  .ad{
     float: right;
-    width: 150px;
-    height: 150px;
-    padding: 25px;
+    width: 200px;
+    height: 200px;
+    /*padding: 25px;*/
     border: 5px solid black;
     margin: auto;
-    overflow-x: hidden;
+    overflow: auto;
+  }
+  .ad img{
+    width: 200px;
+    height: 200px;
   }
   .number-1, .number-2, .number-3, .number-4, .number-5{
     float: left;
