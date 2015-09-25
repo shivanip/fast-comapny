@@ -22,57 +22,59 @@
   .module-stories{
     background-color: rgba(254, 233, 000,0.5);
   }
-  .ad{
+  /*.ad{
     float: right;
     width: 300px;
     height: 250px;
     border: 1px solid black;
     margin: auto;
     overflow: auto;
-  }
+  }*/
   .ad img{
+    float: right;
     width: 300px;
     height: 250px;
+    margin: 20px;
   }
-  .number-1{
+  .module-stories .number-1{
     float: left;
     width: 500px;
     height: 500px;
     border: 1px solid black;
     background-image: url("images/kee-peele.jpg");
-    /*background: rgba(254,233,000,5);*/
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.65;
   }
-  .number-2{
-    float: right;
+  .module-stories .number-2{
+    float: left;
     width: 250px;
     height: 250px;
     border: 1px solid black;
     margin-right: 190px;
-    margin-top: 250px;
+    margin-top: 1px;
+    margin-left: 25px
   }
-  .number-3{
+  .module-stories .number-3{
     float: right;
     width: 350px;
     height: 350px;
     border: 1px solid black;
   }
-  .number-4{
+  .module-stories .number-4{
     margin-top: 50px;
     float: right;
     width: 250px;
     height: 250px;
     border: 1px solid black;
   }
-  .number-5{
+  .module-stories .number-5{
     float: right;
     width: 400px;
     height: 350px;
     border: 1px solid black;
   }
-  .number-1,.number-2,.number-3,.number-4,.number-5 .info{
+  .module-stories .number-1,.number-2,.number-3,.number-4,.number-5 .info{
     font-size: 44px;
     font-weight: bold;
   }
