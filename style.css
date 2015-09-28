@@ -1,17 +1,29 @@
 @media only screen and (max-width: 1440px){
   body {
   font-family: 'Helvetica', sans-serif;
-}
+  padding: 20px;
+
+  }
   h1{
     font-size: 51px;
     font-weight: normal;
-    /*text-align: center;*/
-  }
-  .module-title{
+    text-align: left;
     background-color: rgba(200, 213, 221, 0.5);
+    overflow: visible;
+    height:200px;
+    width: 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border-radius: 200px 200px 200px 200px;
+    align-content: center;
   }
   .module-stories{
     background-color: rgba(254, 233, 000,0.5);
+    width: 160px;
+    height: 100px;
+    -webkit-transform: skew(30deg);
+   -moz-transform: skewY(30deg);
+   -o-transform: skewY(30deg);
+   transform: skewY(30deg);
   }
   .ad img{
     float: right;
@@ -27,8 +39,8 @@
     background-image: url("images/kee-peele.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
     opacity: 0.65;
-    /*text-align: center;*/
     margin-top: 180px;
     margin-left: 50px;
   }
@@ -38,23 +50,24 @@
     height: 200px;
     border: 1px solid black;
     margin-right: 190px;
-    margin-top: 1px;
     margin-left: 15px;
   }
   .module-stories .number-3{
     float: right;
-    width: 350px;
+    width: 400px;
     height: 350px;
     border: 1px solid black;
     margin-top: 15px;
-    margin-right: 240px;
+    margin-right: 149.5px;
+    margin-left: 15px;
   }
   .module-stories .number-4{
     margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 1px;
+    margin-left: 120px;
     float: right;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: 1px solid black;
   }
   .module-stories .number-5{
@@ -62,8 +75,8 @@
     width: 350px;
     height: 350px;
     border: 1px solid black;
-    margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 565px;
+    margin-top: 1px;
   }
   .info{
     font-size: 44px;
