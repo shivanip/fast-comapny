@@ -20,18 +20,17 @@
     float: right;
     width: 300px;
     height: 250px;
-    /*margin: 20px;*/
+    margin: 20px;
   }
   .module-stories{
     display: block;
     background-color: rgba(254, 233, 000,0.5);
-    /*width: 160px;
-    height: 100px;
-    -webkit-transform: skewY(30deg);
-   -moz-transform: skewY(30deg);
-   -o-transform: skewY(30deg);
-   transform: skewY(30deg);
-   height: 100%;*/
+    width: 1250px;
+    height: 1250px;
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    transform: skewY(5deg);
   }
   .module-stories .number-1{
     float: left;
@@ -41,10 +40,13 @@
     background-image: url("images/kee-peele.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-    opacity: 0.65;
+    /*opacity: 0.65;*/
     margin-top: 180px;
     margin-left: 50px;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .module-stories .number-2{
     float: left;
@@ -53,6 +55,10 @@
     border: 1px solid black;
     margin-right: 190px;
     margin-left: 15px;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .module-stories .number-3{
     float: left;
@@ -63,6 +69,10 @@
     margin-right: 149.5px;
     margin-left: 565px;
     text-align: center;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .module-stories .number-4{
     margin-top: -475px;
@@ -71,15 +81,22 @@
     width: 400px;
     height: 350px;
     border: 1px solid black;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .module-stories .number-5{
     float: left;
     width: 450px;
     height: 450px;
     border: 1px solid black;
-    /*margin-right: 565px;*/
     margin-left: 100px;
     margin-top: -110px;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .info{
     font-size: 44px;
