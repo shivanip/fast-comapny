@@ -16,25 +16,27 @@
     border-radius: 200px 200px 200px 200px;
     align-content: center;
   }
-  .module-stories{
-    background-color: rgba(254, 233, 000,0.5);
-    width: 160px;
-    height: 100px;
-    -webkit-transform: skew(30deg);
-   -moz-transform: skewY(30deg);
-   -o-transform: skewY(30deg);
-   transform: skewY(30deg);
-  }
   .ad img{
     float: right;
     width: 300px;
     height: 250px;
     /*margin: 20px;*/
   }
+  .module-stories{
+    display: block;
+    background-color: rgba(254, 233, 000,0.5);
+    /*width: 160px;
+    height: 100px;
+    -webkit-transform: skewY(30deg);
+   -moz-transform: skewY(30deg);
+   -o-transform: skewY(30deg);
+   transform: skewY(30deg);
+   height: 100%;*/
+  }
   .module-stories .number-1{
     float: left;
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     border: 1px solid black;
     background-image: url("images/kee-peele.jpg");
     background-repeat: no-repeat;
@@ -46,37 +48,38 @@
   }
   .module-stories .number-2{
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border: 1px solid black;
     margin-right: 190px;
     margin-left: 15px;
   }
   .module-stories .number-3{
-    float: right;
+    float: left;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin-top: -115px;
+    margin-right: 149.5px;
+    margin-left: 565px;
+    text-align: center;
+  }
+  .module-stories .number-4{
+    margin-top: -475px;
+    margin-left: 150px;
+    float: left;
     width: 400px;
     height: 350px;
     border: 1px solid black;
-    margin-top: 15px;
-    margin-right: 149.5px;
-    margin-left: 15px;
-  }
-  .module-stories .number-4{
-    margin-top: 15px;
-    margin-right: 1px;
-    margin-left: 120px;
-    float: right;
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
   }
   .module-stories .number-5{
-    float: right;
-    width: 350px;
-    height: 350px;
+    float: left;
+    width: 450px;
+    height: 450px;
     border: 1px solid black;
-    margin-right: 565px;
-    margin-top: 1px;
+    /*margin-right: 565px;*/
+    margin-left: 100px;
+    margin-top: -110px;
   }
   .info{
     font-size: 44px;
@@ -89,6 +92,9 @@
   .number-1, .number-4, .number-5 .number{
     margin-top: 0px;
     float: right;
+  }
+  .number-2, .number-3 .number{
+    float: left;
   }
 
 }
