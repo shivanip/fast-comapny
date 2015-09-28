@@ -1,52 +1,56 @@
 @media only screen and (max-width: 1440px){
   body {
   font-family: 'Helvetica', sans-serif;
-  padding: 20px;
-
   }
   h1{
     font-size: 51px;
     font-weight: normal;
-    text-align: left;
+    margin-top: 20px;
+  }
+  .module-title{
+    text-align: center;
+    align-content: center;
     background-color: rgba(200, 213, 221, 0.5);
     overflow: visible;
-    height:200px;
-    width: 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    border-radius: 200px 200px 200px 200px;
-    align-content: center;
+    height:400px;
+    width: 400px;
+    -moz-border-radius: 400px 400px 400px 400px;
+    border-radius: 400px 400px 400px 400px;
+    padding: 20px;
+    margin-left: 400px;
   }
   .ad img{
     float: right;
     width: 300px;
     height: 250px;
-    margin: 20px;
+    margin-top: -320px;
+    background-color: white;
   }
   .module-stories{
-    display: block;
-    background-color: rgba(254, 233, 000,0.5);
-    width: 1250px;
-    height: 1250px;
-    -webkit-transform: skewY(5deg);
-    -moz-transform: skewY(5deg);
-    -o-transform: skewY(5deg);
-    transform: skewY(5deg);
+    background-color: rgba(254, 233, 000, 0.5);
+    width: 1440px;
+    height: 1150px;
+    -webkit-transform: skewY(8deg);
+    -moz-transform: skewY(8deg);
+    -o-transform: skewY(8deg);
+    transform: skewY(8deg);
+    margin-top: -200px;
   }
   .module-stories .number-1{
     float: left;
-    width: 500px;
+    width: 550px;
     height: 500px;
     border: 1px solid black;
     background-image: url("images/kee-peele.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /*opacity: 0.65;*/
-    margin-top: 180px;
+    margin-top: -200px;
     margin-left: 50px;
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+    -webkit-transform: skewY(-8deg);
+    -moz-transform: skewY(-8deg);
+    -o-transform: skewY(-8deg);
+    transform: skewY(-8deg);
   }
   .module-stories .number-2{
     float: left;
@@ -55,48 +59,49 @@
     border: 1px solid black;
     margin-right: 190px;
     margin-left: 15px;
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+    margin-top: -100px;
+    -webkit-transform: skewY(-8deg);
+    -moz-transform: skewY(-8deg);
+    -o-transform: skewY(-8deg);
+    transform: skewY(-8deg);
   }
   .module-stories .number-3{
     float: left;
     width: 600px;
     height: 600px;
     border: 1px solid black;
-    margin-top: -115px;
-    margin-right: 149.5px;
-    margin-left: 565px;
+    margin-top: -105px;
+    /*margin-right: 100px;*/
+    margin-left: 615px;
     text-align: center;
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+    -webkit-transform: skewY(-8deg);
+    -moz-transform: skewY(-8deg);
+    -o-transform: skewY(-8deg);
+    transform: skewY(-8deg);
   }
   .module-stories .number-4{
-    margin-top: -475px;
-    margin-left: 150px;
+    margin-top: -495px;
+    margin-left: 200px;
     float: left;
     width: 400px;
     height: 350px;
     border: 1px solid black;
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+    -webkit-transform: skewY(-8deg);
+    -moz-transform: skewY(-8deg);
+    -o-transform: skewY(-8deg);
+    transform: skewY(-8deg);
   }
   .module-stories .number-5{
     float: left;
-    width: 450px;
+    width: 500px;
     height: 450px;
     border: 1px solid black;
     margin-left: 100px;
-    margin-top: -110px;
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+    margin-top: -120px;
+    -webkit-transform: skewY(-8deg);
+    -moz-transform: skewY(-8deg);
+    -o-transform: skewY(-8deg);
+    transform: skewY(-8deg);
   }
   .info{
     font-size: 44px;
