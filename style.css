@@ -30,7 +30,6 @@
     border: 20px solid white;
     }
   .module-stories{
-
     background-color: rgba(254, 233, 000, 0.5);
     width: 1440px;
     height: 1150px;
@@ -39,6 +38,10 @@
     -o-transform: skewY(8deg);
     transform: skewY(8deg);
     margin-top: -200px;
+  }
+  .module-stories a{
+    text-decoration: none;
+    color: black;
   }
   .module-stories .number-1{
     float: left;
