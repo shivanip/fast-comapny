@@ -43,13 +43,26 @@
     text-decoration: none;
     color: black;
   }
+  .module-stories img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .module-stories .info{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+  }
+  .module-stories .number{
+    position: absolute;
+    top: 1px;
+  }
   .module-stories .number-1{
     float: left;
     width: 550px;
     height: 500px;
-    /*border: 1px solid black;*/
-    background-image: url("images/story-1.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     /*opacity: 0.65;*/
     margin-top: -200px;
@@ -63,12 +76,9 @@
     float: left;
     width: 300px;
     height: 300px;
-    /*border: 1px solid black;*/
     margin-right: 190px;
     margin-left: 15px;
     margin-top: -100px;
-    background-image: url("images/story-2.jpg");
-    background-size: cover;
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
     -o-transform: skewY(-8deg);
@@ -81,7 +91,6 @@
     /*border: 1px solid black;*/
     margin-top: -100px;
     margin-left: 615px;
-    background-image: url("images/story-3.jpg");
     text-align: left;
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
