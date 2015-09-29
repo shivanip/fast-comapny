@@ -20,13 +20,17 @@
     margin-left: 400px;
   }
   .ad img{
+    position: relative;
+    z-index: 100;
     float: right;
     width: 300px;
     height: 250px;
     margin-top: -320px;
     background-color: white;
-  }
+    border: 20px solid white;
+    }
   .module-stories{
+
     background-color: rgba(254, 233, 000, 0.5);
     width: 1440px;
     height: 1150px;
@@ -40,8 +44,8 @@
     float: left;
     width: 550px;
     height: 500px;
-    border: 1px solid black;
-    background-image: url("images/kee-peele.jpg");
+    /*border: 1px solid black;*/
+    background-image: url("images/story-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /*opacity: 0.65;*/
@@ -56,10 +60,12 @@
     float: left;
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-right: 190px;
     margin-left: 15px;
     margin-top: -100px;
+    background-image: url("images/story-2.jpg");
+    background-size: cover;
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
     -o-transform: skewY(-8deg);
@@ -67,25 +73,27 @@
   }
   .module-stories .number-3{
     float: left;
-    width: 600px;
-    height: 600px;
-    border: 1px solid black;
-    margin-top: -105px;
-    /*margin-right: 100px;*/
+    width: 500px;
+    height: 500px;
+    /*border: 1px solid black;*/
+    margin-top: -100px;
     margin-left: 615px;
-    text-align: center;
+    background-image: url("images/story-3.jpg");
+    text-align: left;
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
     -o-transform: skewY(-8deg);
     transform: skewY(-8deg);
   }
   .module-stories .number-4{
-    margin-top: -495px;
+    margin-top: -395px;
     margin-left: 200px;
     float: left;
     width: 400px;
     height: 350px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    background-image: url("images/story-4.jpg");
+    /*opacity: 0.65;*/
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
     -o-transform: skewY(-8deg);
@@ -95,9 +103,10 @@
     float: left;
     width: 500px;
     height: 450px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-left: 100px;
-    margin-top: -120px;
+    margin-top: -15px;
+    background-image: url("images/story-5.jpg");
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
     -o-transform: skewY(-8deg);
@@ -111,11 +120,24 @@
     font-size: 30px;
     font-weight: lighter;
   }
-  .number-1, .number-4, .number-5 .number{
+  .number-1 .number{
     margin-top: 0px;
     float: right;
   }
-  .number-2, .number-3 .number{
+  .number-4 .number{
+    margin-top: 0px;
+    float: right;
+  }
+  .number-5 .number{
+    margin-top: 0px;
+    float: right;
+  }
+  .number-2 .number{
+    margin-top: 0px;
+    float: left;
+  }
+  .number-3 .number{
+    margin-top: 0px;
     float: left;
   }
 
