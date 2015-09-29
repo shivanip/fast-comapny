@@ -31,6 +31,7 @@
     }
   .module-stories{
     background-color: rgba(254, 233, 000, 0.5);
+    overflow: inherit;
     width: 1440px;
     height: 1150px;
     -webkit-transform: skewY(8deg);
