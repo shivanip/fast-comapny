@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1440px){
   body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: Helvetica;
   }
   h1{
     font-size: 51px;
@@ -53,10 +53,21 @@
     top: 10px;
     left: 0;
     width: 100%;
+    line-height: 90%;
   }
   .module-stories .number{
     position: absolute;
     top: 1px;
+  }
+  .overlay{
+    background-color: rgba(255,255,255,0.65);
+    /*background-color: white;*/
+    /*opacity: 0.65;*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
   }
   .module-stories .number-1{
     float: left;
@@ -72,6 +83,7 @@
     -o-transform: skewY(-8deg);
     transform: skewY(-8deg);
   }
+
   .module-stories .number-2{
     float: left;
     width: 300px;
@@ -103,9 +115,6 @@
     float: left;
     width: 400px;
     height: 350px;
-    /*border: 1px solid black;*/
-    background-image: url("images/story-4.jpg");
-    /*opacity: 0.65;*/
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
     -o-transform: skewY(-8deg);
@@ -115,10 +124,8 @@
     float: left;
     width: 500px;
     height: 450px;
-    /*border: 1px solid black;*/
     margin-left: 100px;
     margin-top: -15px;
-    background-image: url("images/story-5.jpg");
     -webkit-transform: skewY(-8deg);
     -moz-transform: skewY(-8deg);
     -o-transform: skewY(-8deg);
