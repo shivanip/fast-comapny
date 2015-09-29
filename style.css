@@ -34,10 +34,10 @@
     overflow: inherit;
     width: 1440px;
     height: 1150px;
-    -webkit-transform: skewY(8deg);
-    -moz-transform: skewY(8deg);
-    -o-transform: skewY(8deg);
-    transform: skewY(8deg);
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    transform: skewY(5deg);
     margin-top: -200px;
   }
   .module-stories a{
@@ -60,10 +60,22 @@
     position: absolute;
     top: 1px;
   }
-  .overlay{
+  .overlay-on{
     background-color: rgba(255,255,255,0.65);
-    /*background-color: white;*/
-    /*opacity: 0.65;*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .overlay-on:hover{
+    background-color:rgba(0,0,0,0.5);
+  }
+  .overlay-off:hover{
+    background-color:rgba(0,0,0,0.5);
+  }
+  .overlay-off{
+    background-color: rgba(255,255,255,0.1);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -79,10 +91,10 @@
     /*opacity: 0.65;*/
     margin-top: -200px;
     margin-left: 50px;
-    -webkit-transform: skewY(-8deg);
-    -moz-transform: skewY(-8deg);
-    -o-transform: skewY(-8deg);
-    transform: skewY(-8deg);
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
 
   .module-stories .number-2{
@@ -92,10 +104,10 @@
     margin-right: 190px;
     margin-left: 15px;
     margin-top: -100px;
-    -webkit-transform: skewY(-8deg);
-    -moz-transform: skewY(-8deg);
-    -o-transform: skewY(-8deg);
-    transform: skewY(-8deg);
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .module-stories .number-3{
     float: left;
@@ -105,10 +117,10 @@
     margin-top: -100px;
     margin-left: 615px;
     text-align: left;
-    -webkit-transform: skewY(-8deg);
-    -moz-transform: skewY(-8deg);
-    -o-transform: skewY(-8deg);
-    transform: skewY(-8deg);
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .module-stories .number-4{
     margin-top: -395px;
@@ -116,10 +128,10 @@
     float: left;
     width: 400px;
     height: 350px;
-    -webkit-transform: skewY(-8deg);
-    -moz-transform: skewY(-8deg);
-    -o-transform: skewY(-8deg);
-    transform: skewY(-8deg);
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .module-stories .number-5{
     float: left;
@@ -127,10 +139,10 @@
     height: 450px;
     margin-left: 100px;
     margin-top: -15px;
-    -webkit-transform: skewY(-8deg);
-    -moz-transform: skewY(-8deg);
-    -o-transform: skewY(-8deg);
-    transform: skewY(-8deg);
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
   }
   .info{
     font-size: 44px;
