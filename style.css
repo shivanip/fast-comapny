@@ -1,4 +1,3 @@
-@media (min-width: 300px) and (max-width: 1440px){
   body {
   font-family: Helvetica;
   }
@@ -172,5 +171,3 @@
     margin-top: 0px;
     float: left;
   }
-
-}
