@@ -1,0 +1,1 @@
+- If I make just the divs responsive I can populate them by fetching the data from the live website's json object.
